@@ -92,7 +92,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/vertical/production/1539643890197-2018-10-15T22:51:30.197Z/vertical.zip"
+          "S3Key": "serverless/vertical/production/1539657514188-2018-10-16T02:38:34.188Z/vertical.zip"
         },
         "FunctionName": "vertical-production-api",
         "Handler": "lambda.universal",
@@ -111,14 +111,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "ApiLambdaVersionwrzBa58JJjlbSxTjAhjsUMIqMTphOvkj0onM6rrGF8": {
+    "ApiLambdaVersioniVt4Pn8QB4btU0uCrxFor53m6RjNd1wTM6kcceFB8w": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ApiLambdaFunction"
         },
-        "CodeSha256": "t4ZBu5xD6auh+zwLLZtXfiFD0QxvF4zVAgaJj9ge2qo="
+        "CodeSha256": "T0MHxY7EDfhQshufyJhbcilEQYtQV+XF/stc6eujqb4="
       }
     },
     "ApiGatewayRestApi": {
@@ -228,7 +228,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1539643890217": {
+    "ApiGatewayDeployment1539657514207": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -284,7 +284,7 @@
     "ApiLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ApiLambdaVersionwrzBa58JJjlbSxTjAhjsUMIqMTphOvkj0onM6rrGF8"
+        "Ref": "ApiLambdaVersioniVt4Pn8QB4btU0uCrxFor53m6RjNd1wTM6kcceFB8w"
       }
     },
     "ServiceEndpoint": {
